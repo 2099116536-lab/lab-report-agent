@@ -73,7 +73,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/<your-id>/lab-report-agent.git
+git clone https://github.com/2099116536-lab/lab-report-agent.git
 cd lab-report-agent
 pip install -r requirements.txt
 
