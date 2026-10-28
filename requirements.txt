@@ -1,0 +1,19 @@
+# ---- 核心 ----
+pydantic>=2.6,<3
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# ---- 检索 ----
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+
+# ---- 服务 ----
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sse-starlette>=2.0
+
+# ---- 工具 ----
+python-dotenv>=1.0
+tenacity>=8.2
+loguru>=0.7
