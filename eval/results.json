@@ -1,0 +1,303 @@
+{
+  "summary": {
+    "cases": 24,
+    "abnormal_precision": 1.0,
+    "abnormal_recall": 1.0,
+    "abnormal_f1": 1.0,
+    "pattern_hit": "17/17",
+    "pattern_hit_rate": 1.0,
+    "review_pass_rate": 1.0,
+    "p95_ms": 5.1,
+    "median_ms": 3.6
+  },
+  "detail": [
+    {
+      "id": "c01",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [],
+      "ms": 5.7,
+      "review": true
+    },
+    {
+      "id": "c02",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [],
+      "ms": 2.7,
+      "review": true
+    },
+    {
+      "id": "c03",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [],
+      "ms": 2.2,
+      "review": true
+    },
+    {
+      "id": "c04",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "小细胞低色素性贫血"
+      ],
+      "pat_pred": [
+        "小细胞低色素性贫血"
+      ],
+      "ms": 6.6,
+      "review": true
+    },
+    {
+      "id": "c05",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "小细胞低色素性贫血"
+      ],
+      "pat_pred": [
+        "小细胞低色素性贫血"
+      ],
+      "ms": 4.8,
+      "review": true
+    },
+    {
+      "id": "c06",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "小细胞低色素性贫血"
+      ],
+      "pat_pred": [
+        "小细胞低色素性贫血"
+      ],
+      "ms": 4.6,
+      "review": true
+    },
+    {
+      "id": "c07",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "大细胞性贫血"
+      ],
+      "pat_pred": [
+        "大细胞性贫血"
+      ],
+      "ms": 4.1,
+      "review": true
+    },
+    {
+      "id": "c08",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "大细胞性贫血"
+      ],
+      "pat_pred": [
+        "大细胞性贫血"
+      ],
+      "ms": 3.8,
+      "review": true
+    },
+    {
+      "id": "c09",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "正细胞性贫血"
+      ],
+      "pat_pred": [
+        "正细胞性贫血"
+      ],
+      "ms": 3.4,
+      "review": true
+    },
+    {
+      "id": "c10",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "肝细胞损伤型肝功能异常"
+      ],
+      "pat_pred": [
+        "肝细胞损伤型肝功能异常"
+      ],
+      "ms": 3.5,
+      "review": true
+    },
+    {
+      "id": "c11",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "肝细胞损伤型肝功能异常"
+      ],
+      "pat_pred": [
+        "肝细胞损伤型肝功能异常"
+      ],
+      "ms": 3.4,
+      "review": true
+    },
+    {
+      "id": "c12",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "胆汁淤积型肝功能异常"
+      ],
+      "pat_pred": [
+        "胆汁淤积型肝功能异常"
+      ],
+      "ms": 3.8,
+      "review": true
+    },
+    {
+      "id": "c13",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "肾功能指标异常"
+      ],
+      "pat_pred": [
+        "肾功能指标异常"
+      ],
+      "ms": 3.4,
+      "review": true
+    },
+    {
+      "id": "c14",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "肾功能指标异常"
+      ],
+      "pat_pred": [
+        "肾功能指标异常"
+      ],
+      "ms": 3.6,
+      "review": true
+    },
+    {
+      "id": "c15",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "高尿酸血症"
+      ],
+      "pat_pred": [
+        "高尿酸血症"
+      ],
+      "ms": 3.1,
+      "review": true
+    },
+    {
+      "id": "c16",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "中性粒细胞增多"
+      ],
+      "pat_pred": [
+        "中性粒细胞增多"
+      ],
+      "ms": 3.7,
+      "review": true
+    },
+    {
+      "id": "c17",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "中性粒细胞增多"
+      ],
+      "pat_pred": [
+        "中性粒细胞增多"
+      ],
+      "ms": 3.7,
+      "review": true
+    },
+    {
+      "id": "c18",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "淋巴细胞增多"
+      ],
+      "pat_pred": [
+        "淋巴细胞增多"
+      ],
+      "ms": 3.4,
+      "review": true
+    },
+    {
+      "id": "c19",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "嗜酸性粒细胞增多"
+      ],
+      "pat_pred": [
+        "嗜酸性粒细胞增多"
+      ],
+      "ms": 3.1,
+      "review": true
+    },
+    {
+      "id": "c20",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [],
+      "ms": 2.7,
+      "review": true
+    },
+    {
+      "id": "c21",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [],
+      "ms": 2.6,
+      "review": true
+    },
+    {
+      "id": "c22",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [
+        "小细胞低色素性贫血",
+        "肝细胞损伤型肝功能异常"
+      ],
+      "pat_pred": [
+        "小细胞低色素性贫血",
+        "肝细胞损伤型肝功能异常"
+      ],
+      "ms": 5.1,
+      "review": true
+    },
+    {
+      "id": "c23",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [],
+      "ms": 3.0,
+      "review": true
+    },
+    {
+      "id": "c24",
+      "miss": [],
+      "extra": [],
+      "pat_exp": [],
+      "pat_pred": [
+        "代谢综合征倾向"
+      ],
+      "ms": 4.1,
+      "review": true
+    }
+  ]
+}

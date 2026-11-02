@@ -139,20 +139,40 @@ def build_correlations(items: list[LabItem], sex: Sex = Sex.UNKNOWN) -> list[Cor
     wbc, neut = _get(items, "WBC"), _get(items, "NEUT%")
     lymph = _get(items, "LYMPH%")
     eos = _get(items, "EOS%")
-    if _high(wbc) and _high(neut):
+    # 百分比会骗人：白细胞总数正常、淋巴比例 60% 时，绝对值其实已经升高。
+    # 所以判「增多」要先换算绝对值（WBC × 百分比 / 100），再用绝对值阈值判断。
+    wbc_v = wbc.value if (wbc and wbc.value is not None) else None
+
+    def _abs_count(pct_item) -> float | None:
+        if wbc_v is None or pct_item is None or pct_item.value is None:
+            return None
+        return wbc_v * pct_item.value / 100.0
+
+    neut_abs = _abs_count(neut)
+    lymph_abs = _abs_count(lymph)
+
+    if (neut_abs is not None and neut_abs > 7.5) or (_high(wbc) and _high(neut)):
         results.append(
             Correlation(
                 pattern="中性粒细胞增多",
-                evidence=[f"WBC {wbc.value}↑", f"NEUT% {neut.value}↑"],
+                evidence=(
+                    [f"中性粒细胞绝对值 {neut_abs:.2f}↑"]
+                    if neut_abs is not None and neut_abs > 7.5
+                    else [f"WBC {getattr(wbc, 'value', '-')}↑", f"NEUT% {getattr(neut, 'value', '-')}↑"]
+                ),
                 confidence=0.85,
                 note="典型细菌感染或应激反应表现，建议结合 CRP、PCT 与临床症状。",
             )
         )
-    if _high(wbc) and _high(lymph):
+    if (lymph_abs is not None and lymph_abs > 3.2) or (_high(wbc) and _high(lymph)):
         results.append(
             Correlation(
                 pattern="淋巴细胞增多",
-                evidence=[f"WBC {wbc.value}↑", f"LYMPH% {lymph.value}↑"],
+                evidence=(
+                    [f"淋巴细胞绝对值 {lymph_abs:.2f}↑"]
+                    if lymph_abs is not None and lymph_abs > 3.2
+                    else [f"WBC {getattr(wbc, 'value', '-')}↑", f"LYMPH% {getattr(lymph, 'value', '-')}↑"]
+                ),
                 confidence=0.78,
                 note="常见于病毒感染，必要时查外周血涂片与病毒血清学。",
             )
