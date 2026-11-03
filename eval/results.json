@@ -7,8 +7,8 @@
     "pattern_hit": "17/17",
     "pattern_hit_rate": 1.0,
     "review_pass_rate": 1.0,
-    "p95_ms": 5.1,
-    "median_ms": 3.6
+    "p95_ms": 9.0,
+    "median_ms": 6.3
   },
   "detail": [
     {
@@ -17,7 +17,7 @@
       "extra": [],
       "pat_exp": [],
       "pat_pred": [],
-      "ms": 5.7,
+      "ms": 10.8,
       "review": true
     },
     {
@@ -26,7 +26,7 @@
       "extra": [],
       "pat_exp": [],
       "pat_pred": [],
-      "ms": 2.7,
+      "ms": 4.2,
       "review": true
     },
     {
@@ -35,7 +35,7 @@
       "extra": [],
       "pat_exp": [],
       "pat_pred": [],
-      "ms": 2.2,
+      "ms": 4.0,
       "review": true
     },
     {
@@ -48,7 +48,7 @@
       "pat_pred": [
         "小细胞低色素性贫血"
       ],
-      "ms": 6.6,
+      "ms": 9.0,
       "review": true
     },
     {
@@ -61,7 +61,7 @@
       "pat_pred": [
         "小细胞低色素性贫血"
       ],
-      "ms": 4.8,
+      "ms": 6.3,
       "review": true
     },
     {
@@ -74,7 +74,7 @@
       "pat_pred": [
         "小细胞低色素性贫血"
       ],
-      "ms": 4.6,
+      "ms": 5.7,
       "review": true
     },
     {
@@ -87,7 +87,7 @@
       "pat_pred": [
         "大细胞性贫血"
       ],
-      "ms": 4.1,
+      "ms": 7.6,
       "review": true
     },
     {
@@ -100,7 +100,7 @@
       "pat_pred": [
         "大细胞性贫血"
       ],
-      "ms": 3.8,
+      "ms": 6.5,
       "review": true
     },
     {
@@ -113,7 +113,7 @@
       "pat_pred": [
         "正细胞性贫血"
       ],
-      "ms": 3.4,
+      "ms": 5.5,
       "review": true
     },
     {
@@ -126,7 +126,7 @@
       "pat_pred": [
         "肝细胞损伤型肝功能异常"
       ],
-      "ms": 3.5,
+      "ms": 8.6,
       "review": true
     },
     {
@@ -139,7 +139,7 @@
       "pat_pred": [
         "肝细胞损伤型肝功能异常"
       ],
-      "ms": 3.4,
+      "ms": 6.8,
       "review": true
     },
     {
@@ -152,7 +152,7 @@
       "pat_pred": [
         "胆汁淤积型肝功能异常"
       ],
-      "ms": 3.8,
+      "ms": 8.1,
       "review": true
     },
     {
@@ -165,7 +165,7 @@
       "pat_pred": [
         "肾功能指标异常"
       ],
-      "ms": 3.4,
+      "ms": 6.3,
       "review": true
     },
     {
@@ -178,7 +178,7 @@
       "pat_pred": [
         "肾功能指标异常"
       ],
-      "ms": 3.6,
+      "ms": 6.3,
       "review": true
     },
     {
@@ -191,7 +191,7 @@
       "pat_pred": [
         "高尿酸血症"
       ],
-      "ms": 3.1,
+      "ms": 8.4,
       "review": true
     },
     {
@@ -204,7 +204,7 @@
       "pat_pred": [
         "中性粒细胞增多"
       ],
-      "ms": 3.7,
+      "ms": 11.9,
       "review": true
     },
     {
@@ -217,7 +217,7 @@
       "pat_pred": [
         "中性粒细胞增多"
       ],
-      "ms": 3.7,
+      "ms": 8.0,
       "review": true
     },
     {
@@ -230,7 +230,7 @@
       "pat_pred": [
         "淋巴细胞增多"
       ],
-      "ms": 3.4,
+      "ms": 6.0,
       "review": true
     },
     {
@@ -243,7 +243,7 @@
       "pat_pred": [
         "嗜酸性粒细胞增多"
       ],
-      "ms": 3.1,
+      "ms": 5.2,
       "review": true
     },
     {
@@ -252,7 +252,7 @@
       "extra": [],
       "pat_exp": [],
       "pat_pred": [],
-      "ms": 2.7,
+      "ms": 4.6,
       "review": true
     },
     {
@@ -261,7 +261,7 @@
       "extra": [],
       "pat_exp": [],
       "pat_pred": [],
-      "ms": 2.6,
+      "ms": 4.6,
       "review": true
     },
     {
@@ -276,7 +276,7 @@
         "小细胞低色素性贫血",
         "肝细胞损伤型肝功能异常"
       ],
-      "ms": 5.1,
+      "ms": 7.3,
       "review": true
     },
     {
@@ -285,7 +285,7 @@
       "extra": [],
       "pat_exp": [],
       "pat_pred": [],
-      "ms": 3.0,
+      "ms": 4.1,
       "review": true
     },
     {
@@ -296,7 +296,7 @@
       "pat_pred": [
         "代谢综合征倾向"
       ],
-      "ms": 4.1,
+      "ms": 4.9,
       "review": true
     }
   ]
